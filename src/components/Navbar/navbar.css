@@ -1,0 +1,38 @@
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link_dark {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.link:hover {
+    opacity: .7;
+}
+
+.link:active {
+    opacity: .5;
+}
+.link__Furniture{
+    font-size: 24px;
+}
+
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 12px;
+}
+
+.navbar__ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+

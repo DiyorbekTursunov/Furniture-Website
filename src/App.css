@@ -1,42 +1,130 @@
-#root {
-  max-width: 1280px;
+.container {
+  max-width: 1164px;
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.header_wrapper {
+  background-color: #3B5D50;
+  margin-bottom: 84px;
+}
+
+.header_main {
+  margin: 0 auto;
+  max-width: 611px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_main h1 {
+  margin-top: 300px;
   text-align: center;
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 120%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header_wrapper {
+  background-image: url(./assets/header_wrapper.png);
+  background-size: cover;
+  width: 100%;
+  height: 1025px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_btn {
+  border: none;
+  padding: 20px;
+  width: 220px;
+  background: #F6B50E;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  cursor: pointer;
+  margin-top: 58px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.header_btn:hover {
+  border: none;
+  padding: 20px;
+  background: #F6B50E;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  opacity: .7;
 }
 
-.card {
-  padding: 2em;
+
+.section__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 89px;
 }
 
-.read-the-docs {
-  color: #888;
+.section__top h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.section__top button {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+.popular__products{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 142px;
+}
+
+
+.popular__product {
+  position: relative;
+  width: 270px;
+  height: 363px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #F1F1F1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popular__product__heading {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 52px;
+}
+
+.popular__product__img{
+  position: absolute;
+  bottom: -25px;
+}
+
+.couch_section img{
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.couch__titles{
+  max-width: 389px;
+}
+.couch__titles h2{
+  margin-bottom: 10px;
+}
+
+.chair_section{
+  margin-bottom: 122px; 
 }

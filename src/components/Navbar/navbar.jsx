@@ -43,7 +43,7 @@ const Navbar = ({ isDark }) => {
         <li className="navbar_li">
           <Link
             className={isDark ? "link_dark" : "link "}
-            to={"purchase"}
+            to={"/purchase"}
           >
             purchase
           </Link>

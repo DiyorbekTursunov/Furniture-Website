@@ -1,0 +1,58 @@
+.my_works_container{
+    padding-top: 50px;
+    padding-bottom: 50px ;
+}
+
+.my_works_title {
+    max-width: 648px;
+}
+
+.my_works_title h1 {
+    color: #132238;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 84px;
+    margin-bottom: 5px;
+}
+
+.my_works_title p {
+    color: #556070;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 38px;
+}
+
+.my_works_title button {
+    border-radius: 4px;
+    background:  #A53DFF;
+    padding: 12px 24px;
+    gap: 12px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.my_works_title button:hover{
+    border-radius: 4px;
+    background:  #8d18f4;
+    padding: 12px 24px;
+    gap: 12px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.my_works_title__btn{
+    border-radius: 4px;
+    background:  #A53DFF;
+    padding: 12px 24px;
+    gap: 12px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 15px;
+}
